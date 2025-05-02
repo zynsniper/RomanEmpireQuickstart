@@ -2,7 +2,7 @@
 
 owner = ROM
 controller = ROM
-culture = Roman 
+culture = roman 
 religion = catholic 
 hre = no
 base_tax = 9
