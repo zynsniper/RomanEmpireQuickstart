@@ -14,7 +14,3 @@ capital = 118 # Rome
 		mil = 6
 	}
 }
-
-1444.11.11 = {
-	event = flavor_byz.4
-}
