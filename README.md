@@ -20,10 +20,10 @@ To install from this GitHub repository:
 <!-- Replace the image links below with your own -->
 
 ### 🗺️ Starting Map View
-![Map View](link-to-your-image-here)
+![Map View](https://github.com/zynsniper/RomanEmpireQuickstart/blob/Images/image_2025-05-02_074855766.png)
 
 ### 🏰 Country Overview
-![Country Overview](link-to-your-image-here)
+![Country Overview](https://github.com/zynsniper/RomanEmpireQuickstart/blob/Images/image_2025-05-02_080606629.png)
 
 ---
 
