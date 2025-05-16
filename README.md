@@ -20,8 +20,6 @@ Visit the workshop page <a href = "https://steamcommunity.com/sharedfiles/filede
 
 ## 📸 Preview
 
-<!-- Replace the image links below with your own -->
-
 ### 🗺️ Starting Map View
 ![Map View](https://github.com/zynsniper/RomanEmpireQuickstart/blob/Images/image_2025-05-02_074855766.png)
 
