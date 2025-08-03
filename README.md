@@ -12,13 +12,12 @@ To install from this GitHub repository:
 2. Move the file `RomanEmpireQuickstart.mod` to: Documents\Paradox Interactive\Europa Universalis IV\mod
 3. Move the folder `RomanEmpireQuickstart` to the same directory: Documents\Paradox Interactive\Europa Universalis IV\mod
 4. Launch Europa Universalis IV and add the mod to your **Playset**
-   
-**OR**
-Visit the workshop page <a href = "https://steamcommunity.com/sharedfiles/filedetails/?id=3474338220"> <span> 🔗Steam Workshop Page</span> </a> and click subscribe
 
 ---
 
 ## 📸 Preview
+
+<!-- Replace the image links below with your own -->
 
 ### 🗺️ Starting Map View
 ![Map View](https://github.com/zynsniper/RomanEmpireQuickstart/blob/Images/image_2025-05-02_074855766.png)
