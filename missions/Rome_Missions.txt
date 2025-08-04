@@ -1,104 +1,85 @@
-roman_missions = {
-	religion_and_culture = {
-		slot = 1
-		generic = no
-		ai = yes
-		has_country_shield = yes
-		potential = { tag = ROM } 
+religion_and_culture = {
+	slot = 1
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = ROM } 
 
-		divine_reconciliation = {
-			icon = answer_the_roman_question
-			position = 1
+	divine_reconciliation = {
+		icon = answer_the_roman_question
+		position = 1
+		provinces_to_highlight = {  } 
 
-			highlight_country = { tag = PAP }
+		trigger = { always = yes } 
 
-			trigger = { 
-				PAP = {
-					opinion = {
-						who = ROOT
-						value = 100
-					}
-				}
-			} 
-
-			effect = { 
-				add_country_modifier = {
-					name = rom_divine_reconciliation_modifier
-					duration = 1825
-				}
-			} 
-		}
+		effect = { add_adm_power = 50 } 
 	}
+}
+war_and_expansion = {
+	slot = 2
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = ROM } 
 
-	war_and_expansion = {
-		slot = 2
-		generic = no
-		ai = yes
-		has_country_shield = yes
-		potential = { tag = ROM } 
+	rightful_claimants = {
+		icon = mission_rule_italy
+		position = 1
+		provinces_to_highlight = {  } 
 
-		rightful_claimants = {
-			icon = mission_rule_italy
-			position = 1
-			provinces_to_highlight = {  } 
+		trigger = { always = yes } 
 
-			trigger = {  } 
-
-			effect = {  } 
-		}
+		effect = { add_adm_power = 50 } 
 	}
+}
+military_and_discipline = {
+	slot = 3
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = ROM } 
 
-	military_and_discipline = {
-		slot = 3
-		generic = no
-		ai = yes
-		has_country_shield = yes
-		potential = { tag = ROM } 
+	legions_reborn = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		provinces_to_highlight = {  } 
 
-		legions_reborn = {
-			icon = legions
-			position = 1
-			provinces_to_highlight = {  } 
+		trigger = { always = yes } 
 
-			trigger = {  } 
-
-			effect = {  } 
-		}
+		effect = { add_adm_power = 50 } 
 	}
+}
+diplomacy_and_influence = {
+	slot = 4
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = ROM } 
 
-	diplomacy_and_influence = {
-		slot = 4
-		generic = no
-		ai = yes
-		has_country_shield = yes
-		potential = { tag = ROM } 
+	the_eastern_question = {
+		icon = byz_reinforce_constantinople
+		position = 1
+		provinces_to_highlight = {  } 
 
-		the_eastern_question = {
-			icon = legions
-			position = 1
-			provinces_to_highlight = {  } 
+		trigger = { always = yes } 
 
-			trigger = {  } 
-
-			effect = {  } 
-		}
+		effect = { add_adm_power = 50 } 
 	}
+}
+trade_and_economy = {
+	slot = 5
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = ROM } 
 
-	trade_and_economy = {
-		slot = 5
-		generic = no
-		ai = yes
-		has_country_shield = yes
-		potential = { tag = ROM } 
+	merchants_of_rome = {
+		icon = mission_horde_trade
+		position = 1
+		provinces_to_highlight = {  } 
 
-		merchants_of_rome = {
-			icon = legions
-			position = 1
-			provinces_to_highlight = {  } 
+		trigger = { always = yes } 
 
-			trigger = {  } 
-
-			effect = {  } 
-		}
+		effect = { add_adm_power = 50 } 
 	}
 }
