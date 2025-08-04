@@ -1,0 +1,4 @@
+rom_divine_reconciliation_modifier = {
+	diplomatic_reputation = 1
+    improve_relation_modifier = 0.05
+}

@@ -2446,8 +2446,3 @@ may_dynastic_influence_modifier = {
 	legitimacy = 0.25 
 	land_forcelimit = 3
 }
-
-rom_divine_reconciliation_modifier = {
-	diplomatic_reputation = 1
-    improve_relation_modifier = 0.05
-}

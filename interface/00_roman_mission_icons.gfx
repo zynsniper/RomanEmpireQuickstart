@@ -1,0 +1,22 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "answer_the_roman_question"
+		texturefile = "gfx/interface/missions/answer_the_roman_question.dds"
+	}
+
+	spriteType = {
+		name = "legions"
+		texturefile = "gfx/interface/missions/legions.dds"
+	}	
+
+	spriteType = {
+		name = "mission_consolidate_the_state"
+		texturefile = "gfx/interface/missions/mission_consolidate_the_state.dds"
+	}	
+
+	spriteType = {
+		name = "mission_rule_italy"
+		texturefile = "gfx/interface/missions/mission_rule_italy.dds"
+	}	
+}
