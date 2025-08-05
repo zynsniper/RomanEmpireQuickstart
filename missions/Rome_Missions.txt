@@ -8,11 +8,30 @@ religion_and_culture = {
 	divine_reconciliation = {
 		icon = answer_the_roman_question
 		position = 1
-		provinces_to_highlight = {  } 
+		provinces_to_highlight = {
+			owned_by = PAP
+		} 
 
-		trigger = { always = yes } 
+		trigger = {
+			OR = {
+				AND = {
+					estate_loyalty = {
+						estate = estate_church
+						loyalty = 60
+					}
+					NOT = { PAP = { is_enemy = ROOT } }
+				}
 
-		effect = { add_adm_power = 50 } 
+				NOT = { exists = PAP }
+			}
+		} 
+
+		effect = { 
+			add_country_modifier = {
+				name = "divine_reconciliation_modifier"
+				duration = 1825
+			}
+		} 
 	}
 }
 war_and_expansion = {
@@ -40,7 +59,7 @@ military_and_discipline = {
 	potential = { tag = ROM } 
 
 	legions_reborn = {
-		icon = legions
+		icon = mission_build_up_to_force_limit
 		position = 1
 		provinces_to_highlight = {  } 
 
